@@ -1,1 +1,18 @@
-1. Git init
+1. git init
+
+2. git add . (ojo, el punto va separado)
+
+3. git commit -m "Primer commit"
+
+4. Se crea el repositorio en github
+
+5. git remote add origin https://github.com/CeciliaBPerdomo/Clase-33---Ejercicio-01.git
+
+6. git push --set-upstream origin master
+
+7. En una nueva carpeta: git clone https://github.com/CeciliaBPerdomo/Clase-33---Ejercicio-01.git
+npm i (no tiene node_modules)
+
+8. Despues que se modifica: 
+git add . 
+git commit -m "Segundo commit"
