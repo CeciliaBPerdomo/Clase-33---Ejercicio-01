@@ -1,0 +1,41 @@
+Utilizar Git
+
+● Crea una carpeta local llamada proyectoGit-persona_1.
+
+● Inicializa un proyecto de git en esa carpeta.
+
+● Crea un servidor en node.js y express dentro de esa carpeta que en su ruta raiz
+devuelva un html, el cual tendrá un título h1 con el contenido: 'Proyecto Node.js
+con git'. La página web tendrá una hoja de estilos externa que dará color azul a
+nuestro título y un script externo que represente el contenido del h1.
+
+● Prueba el servidor en forma local.
+
+● Crea el archivo .gitignore agregando la carpeta node_modules para no incluirla en el repo.
+
+● Agrega los archivos en el stage area.
+
+● Commitea los cambios en el repo local con un mensaje que represente la versión inicial: ej: v0.0.1.
+
+● Crea un repo en github llamado proyectoGit.
+
+● Agrega el repo remoto al proyecto de git.
+
+● Sube el repo local al remoto.
+
+● Revisa si en el repo remoto está el código subido con la versión que pusimos en el commit.
+
+● Clona el repo remoto en una carpeta llamada proyectoGit-persona_2
+
+● Restaura las dependencias y verificar que todo funcione en esta carpeta.
+
+● Agrega un subtítulo h2 al documento que diga: '¡Bienvenidos!'.
+
+● Realiza todo lo necesario para subir los cambios al repo remoto desde esta carpeta, con un mensaje de revisión:
+ v0.0.2.
+
+● Verifica en github el código subido con la nueva revisión.
+
+● En la carpeta proyectoGit-persona_1 realiza un pull comprobando que el código
+quede igual al de la carpeta proyectoGit-persona_2 (sincronizamos el repo local
+con el remoto).
